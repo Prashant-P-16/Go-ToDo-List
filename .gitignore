@@ -35,3 +35,6 @@ _testmain.go
 *~
 *#
 *.json
+
+# Dependency directories
+node_modules/
