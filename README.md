@@ -1,5 +1,5 @@
 # Go-ToDo-List
-Go service making use of RabbitMQ & Redis. This service exposes a POST api endpoint which receives POST requests from users to add the todo items to Redis database. The POST request should follow below format: <br/>
+Go service to handle day to day To-Do tasks by making use of RabbitMQ & Redis. This service exposes a POST api endpoint which receives POST requests from users to add the todo items to Redis database. The POST request should follow below format: <br/>
 ````js
 Headers:
   Content-Type:application/json
