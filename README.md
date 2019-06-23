@@ -20,11 +20,11 @@ On successful insertion, the service publishes messages on RabbitMQ messaging qu
     
  3. Configure following values in conf.json file: <br />
     { <br />
-      "PORT" : "< Port on which service should run >", <br />
-      "REDIS_NETWORK" : "tcp", <br />
-      "REDIS_ADDR" : "< Connection url of Redis server >", <br />
-      "RABBIT_CONN_URL" : "< RabbitMQ connection url >", <br />
-      "RABBIT_QNAME" : "< Queue name configured (on which service will publish messages) in RabbitMQ >" <br />
+        "PORT" : "< Port on which service should run >", <br />
+        "REDIS_NETWORK" : "tcp", <br />
+        "REDIS_ADDR" : "< Connection url of Redis server >", <br />
+        "RABBIT_CONN_URL" : "< RabbitMQ connection url >", <br />
+        "RABBIT_QNAME" : "< Queue name configured (on which service will publish messages) in RabbitMQ >" <br />
     } <br />
     
     Sample config values are as follows: <br />
